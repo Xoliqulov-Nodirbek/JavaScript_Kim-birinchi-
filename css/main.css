@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 239, 14);
+}
+
+.container{
+    width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.site__title{
+    font-size: 50px;
+    font-family: League Spartan;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.box{
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form__input{
+    padding: 10px 20px 10px 40px;
+    border: 1px solid rgb(218, 120, 1);
+    background-color: rgb(233, 198, 0);
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+    background-image: url('../images/arrow-90deg-right.svg');
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 500;
+}
+
+.form__btn{
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-left: 50px;
+    background-color: rgb(233, 198, 0);
+    color: #000;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 500;
+}
+
+.form__result{
+    margin-top: 40px;
+    font-size: 25px;
+    color: red;
+    font-family: League Spartan;
+    font-weight: 500;
+}
+
+.all__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 320px;
+    border: 1px solid black;
+    padding: 50px 30px;   
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(241, 165, 0);
+}
+
+.card__img{
+    width: 100px;
+    height: 100px;
+}
+
+.card__title{
+    margin-top: 40px;
+    font-family: League Spartan;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+
+.card__result--people{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 400;
+}
+
+.card__result--bicycle{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 400;
+}
+
+.card__result--car{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 400;
+}
+
+.card__result--plane{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 400;
+}
