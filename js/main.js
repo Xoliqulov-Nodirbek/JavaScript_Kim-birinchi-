@@ -22,6 +22,9 @@ elForm.addEventListener("submit" , function(evt){
     if(elRel <= 0){
         alert `Iltimos ! 0 dan katta va musbar son kiriting !`;
     }
+    if(elRel = " "){
+        alert `Iltimos Raqam kiriting !`
+    }
     
     calculateOnFood();
     calculateBicycle();
