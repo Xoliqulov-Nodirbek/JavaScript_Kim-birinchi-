@@ -17,13 +17,10 @@ var el_PLANE = 800;
 elForm.addEventListener("submit" , function(evt){
     evt.preventDefault();
 
-    var elRel = elFormInput.value;
-
+    var elRel = Number(elFormInput.value);
+    
     if(elRel <= 0){
         alert `Iltimos ! 0 dan katta va musbar son kiriting !`;
-    }
-    if(elRel = " "){
-        alert `Iltimos Raqam kiriting !`
     }
     
     calculateOnFood();
@@ -134,3 +131,5 @@ function calculatePlane(){
     
     return;
 }
+
+elFormInput.value = "";
