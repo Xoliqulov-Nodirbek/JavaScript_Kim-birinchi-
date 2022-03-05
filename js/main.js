@@ -22,16 +22,12 @@ elForm.addEventListener("submit" , function(evt){
     if(elRel <= 0){
         alert `Iltimos, 0 dan katta va musbar son kiriting !`;
     }
-    if (elRel = isNaN){
-        alert `Iltimos, raqam kiriting !`
-    }
     
     calculateOnFood();
     calculateBicycle();
     calculateCar();
     calculatePlane();
 })
-
 
 
 function calculateOnFood(){
