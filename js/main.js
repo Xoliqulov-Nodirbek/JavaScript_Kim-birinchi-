@@ -20,7 +20,10 @@ elForm.addEventListener("submit" , function(evt){
     var elRel = Number(elFormInput.value);
     
     if(elRel <= 0){
-        alert `Iltimos ! 0 dan katta va musbar son kiriting !`;
+        alert `Iltimos, 0 dan katta va musbar son kiriting !`;
+    }
+    if (elRel = isNaN){
+        alert `Iltimos, raqam kiriting !`
     }
     
     calculateOnFood();
@@ -43,6 +46,10 @@ function calculateOnFood(){
     
     if(onFoodHour == 0 && onFoodCek == 0){
         elPeopleResult.textContent = `${onFoodMin} minut`;
+    }
+    
+    if(onFoodMin == 0 && onFoodCek == 0){
+        elPeopleResult.textContent = `${onFoodHour} soat`;
     }
     
     if(onFoodCek == 0){
@@ -92,7 +99,7 @@ function calculateCar(){
         elCarResult.textContent = `${carHour} soat ${carMin} minut ${carCek} sekund`;
     }
     
-    if(carHour == 0){
+    if(carHour == 0 ){
         elCarResult.textContent = `${carMin} minut ${carCek} sekund`;
     }
     
